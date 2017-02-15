@@ -9,32 +9,69 @@
 </head>
  	<body>
 		<header class="header">
-			<div class="logo">
-				<img src="img/logo.png" alt="логотип олим трейд" class="logo__img">
-			</div>
-			<div class="title">
-				<h1 class="title__h1">Бинарные опционы:</h1>
-				<p class="title__description">Кратчайший путь в мир трейдинга</p>
-			</div>
-			<form action="" method="post" class="form">
-				<input type="email" name="email" class="form__field" placeholder="Ваш e-mail">
-				<input type="password" name="password" class="form__field" placeholder="Придумайте пароль">
-				<div class="currency">
-					<span class="currency__title">Выбирите вашу валюту</span>
-					<input type="radio" name="currency" class="currency__radio" id="ruble" checked>
-					<input type="radio" name="currency" class="currency__radio" id="dollar">
-					<input type="radio" name="currency" class="currency__radio" id="euro">
-					<label for="ruble" class="currency__label">Рубль</label>
-					<label for="ruble" class="currency__label">Доллар</label>
-					<label for="ruble" class="currency__label">Евро</label>
+			<div class="wrapper">
+				<div class="logo">
+					<img src="img/logo.png" alt="логотип олим трейд" class="logo__img">
 				</div>
-				<input type="submit" value="Зарегестрироваться" class="form__submit">
-				<p class="form__after-text">Нажатием на кнопку «Зарегистрироваться» вы подтверждаете,  что вам 18 лет, и вы согласны c соглашением об оказании услуг</p>
-			</form>
-			<div class="trigger">
-				<span class="trigger__money">380 588 $</span>
-				<span class="trigger__description">Выплачено трейдерам сегодня</span>
+				<div class="title">
+					<h1 class="title__h1">Бинарные опционы:</h1>
+					<p class="title__description">Кратчайший путь в мир трейдинга</p>
+				</div>
+				<form action="" method="post" class="form">
+					<input type="email" name="email" class="form__field" placeholder="Ваш e-mail">
+					<input type="password" name="password" class="form__field" placeholder="Придумайте пароль">
+					<div class="currency">
+						<span class="currency__title">Выбирите вашу валюту</span>
+						<div class="currency__wrapper">
+							<input type="radio" name="currency" class="currency__radio" id="ruble" checked>
+							<label for="ruble" class="currency__label currency__label--ruble">Рубль</label>
+							<input type="radio" name="currency" class="currency__radio" id="dollar">
+							<label for="dollar" class="currency__label currency__label--dollar">Доллар</label>
+							<input type="radio" name="currency" class="currency__radio" id="euro">
+							<label for="euro" class="currency__label currency__label--euro">Евро</label>
+						</div>
+					</div>
+					<input type="submit" value="Зарегестрироваться" class="form__submit">
+					<div class="rules">
+						<p class="rules__text">Нажатием на кнопку «Зарегистрироваться» вы подтверждаете,  что вам 18 лет, и вы согласны c <a href="#" class="rules__a">соглашением об оказании услуг</a></p>
+					</div>
+				</form>
+				<div class="trigger">
+					<span class="trigger__money">380 588 $</span>
+					<span class="trigger__description">Выплачено трейдерам сегодня</span>
+				</div>
 			</div>
 		</header>
+		<main>
+			<div class="advantages">
+				<h2 class="advantages__title">Начать просто</h2>
+				<section class="icons">
+					<article class="icons__icon">
+						<div class="icons__pic icons__pic--registration"></div>
+						<div class="icons__txt">Зарегистрируйтест за 30 секунд</div>
+					</article>
+					<article class="icons__icon">
+						<div class="icons__pic icons__pic--registration"></div>
+						<div class="icons__txt">Зарегистрируйтест за 30 секунд</div>
+					</article>
+					<article class="icons__icon">
+						<div class="icons__pic icons__pic--registration"></div>
+						<div class="icons__txt">Зарегистрируйтест за 30 секунд</div>
+					</article>
+					<article class="icons__icon">
+						<div class="icons__pic icons__pic--registration"></div>
+						<div class="icons__txt">Зарегистрируйтест за 30 секунд</div>
+					</article>
+					<article class="icons__icon">
+						<div class="icons__pic icons__pic--registration"></div>
+						<div class="icons__txt">Зарегистрируйтест за 30 секунд</div>
+					</article>
+					<article class="icons__icon">
+						<div class="icons__pic icons__pic--registration"></div>
+						<div class="icons__txt">Зарегистрируйтест за 30 секунд</div>
+					</article>
+				</section>
+			</div>
+		</main>
 	</body>
 </html>
