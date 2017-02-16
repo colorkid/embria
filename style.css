@@ -524,7 +524,7 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 10px;
+    padding: 100px 10px 0 10px;
   }
   .title {
     text-align: center;
