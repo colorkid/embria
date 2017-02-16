@@ -1,0 +1,561 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: url("fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("fonts/OpenSansLight/OpenSansLight.eot");
+  src: url("fonts/OpenSansLight/OpenSansLight.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: url("fonts/OpenSansSemiBold/OpenSansSemiBold.eot");
+  src: url("fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "RobotoLight";
+  src: url("fonts/RobotoLight/RobotoLight.eot");
+  src: url("fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"), url("fonts/RobotoLight/RobotoLight.woff") format("woff"), url("fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+figure {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ol {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  font-size: 0;
+}
+button {
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+div,
+section,
+article,
+header,
+main,
+footer,
+button,
+a,
+input,
+label {
+  box-sizing: border-box;
+}
+input::-webkit-input-placeholder {
+  text-align: center;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: "OpenSansLight";
+  color: #dedede;
+}
+input::-moz-placeholder {
+  text-align: center;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: "OpenSansLight";
+  color: #dedede;
+}
+input:-moz-placeholder {
+  text-align: center;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: "OpenSansLight";
+  color: #dedede;
+}
+input:-ms-input-placeholder {
+  text-align: center;
+  opacity: 1;
+  font-weight: "OpenSansLight";
+  color: #dedede;
+  font-size: 14px;
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+input:focus::-moz-placeholder {
+  opacity: 0;
+}
+input:focus:-moz-placeholder {
+  opacity: 0;
+}
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "OpenSansRegular", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 1920px;
+  height: 925px;
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  max-width: 1280px;
+  padding: 100px 0 0 20px;
+}
+.logo {
+  font-size: 0;
+}
+.title {
+  width: 100%;
+  margin: 35px 0 0 0;
+}
+.title__h1 {
+  margin: 0;
+  font-family: "RobotoRegular";
+  font-size: 60px;
+  font-weight: normal;
+}
+.title__description {
+  max-width: 580px;
+  font-family: "RobotoLight";
+  font-size: 52px;
+  line-height: 48px;
+}
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  max-width: 320px;
+  margin-top: 70px;
+  position: relative;
+}
+.form:after {
+  content: "";
+  position: absolute;
+  top: 219px;
+  right: -45px;
+  width: 25px;
+  height: 16px;
+  background-image: url("img/row.png");
+}
+.form:before {
+  content: "Начни сейчас";
+  position: absolute;
+  top: 214px;
+  right: -210px;
+  text-transform: uppercase;
+  font-family: "OpenSansSemiBold";
+  font-size: 16px;
+  letter-spacing: 1.3px;
+}
+.form__field {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: "OpenSansLight";
+  font-size: 14px;
+  color: #dedede;
+  background: rgba(255, 255, 255, 0.2);
+}
+.form__field:focus {
+  outline: none;
+}
+.form__field:invalid {
+  box-shadow: none;
+}
+.currency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-top: 15px;
+}
+.currency__title {
+  width: 100%;
+  margin-bottom: 13px;
+  text-align: center;
+  line-height: 12px;
+  color: #fff;
+}
+.currency__wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.currency__radio {
+  display: none;
+}
+.currency__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 105px;
+  height: 40px;
+  border: 1px solid transparent;
+  font-family: "OpenSansLight";
+  color: #dedede;
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.currency__label--ruble {
+  border-radius: 20px 0 0 20px;
+  width: 105px;
+}
+.currency__label--dollar {
+  width: 108px;
+}
+.currency__label--euro {
+  border-radius: 0 20px 20px 0;
+}
+.currency__radio:checked + .currency__label {
+  font-family: "OpenSansSemiBold";
+  color: #29da26;
+  border-color: #29da26;
+}
+.form__submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 27px;
+  margin-bottom: 12.5px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  font-family: "OpenSansRegular";
+  font-size: 14px;
+  color: #fff;
+  background: #449f42;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transition-property: background;
+  transition-property: background;
+}
+.form__submit:hover {
+  background: #3c8d3b;
+}
+.form__submit:active {
+  background: #357b33;
+}
+.rules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-family: "OpenSansLight";
+  font-size: 12px;
+  color: #c6c6c6;
+}
+.rules__text {
+  width: 93%;
+}
+.rules__a {
+  text-decoration: underline;
+  color: #c6c6c6;
+}
+.rules__a:hover {
+  text-decoration: none;
+}
+.trigger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-top: 95px;
+  text-align: center;
+}
+.trigger__money {
+  font-family: "OpenSansBold";
+  font-size: 41px;
+  line-height: 42px;
+}
+.trigger__description {
+  width: 100%;
+  font-size: 22px;
+  color: #449f42;
+}
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+.advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  max-width: 1280px;
+  padding: 100px 20px 0 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 80px 20px 0 20px;
+}
+.advantages__title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: "OpenSansLight";
+  font-size: 44px;
+  color: #333333;
+}
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  min-width: 1240px;
+  margin-top: 54px;
+  color: #333;
+  position: relative;
+}
+.icons:after {
+  content: "";
+  position: absolute;
+  top: 102px;
+  left: 8%;
+  width: 83%;
+  height: 2px;
+  background: #3a8439;
+}
+.icons__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 200px;
+  min-width: 200px;
+  position: relative;
+}
+.icons__icon:after {
+  content: "";
+  position: absolute;
+  top: 93.5px;
+  left: 90.75px;
+  width: 18.5px;
+  height: 18.5px;
+  border-radius: 50%;
+  border: 2px solid #3a8439;
+  background: #fff;
+  z-index: 1;
+  box-sizing: border-box;
+}
+.icons__pic {
+  width: 75px;
+  height: 110px;
+  background-size: 100%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+.icons__pic--registration {
+  background-image: url("img/clock.png");
+}
+.icons__pic--curs {
+  background-image: url("img/play.png");
+}
+.icons__pic--way {
+  background-image: url("img/line.png");
+}
+.icons__pic--power {
+  background-image: url("img/power.png");
+}
+.icons__pic--card {
+  background-image: url("img/card.png");
+}
+.icons__pic--90 {
+  background-image: url("img/90.png");
+}
+.icons__txt {
+  width: 165px;
+  margin-top: 30px;
+  color: #333333;
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  .icons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 320px;
+    min-width: 320px;
+  }
+  .icons:after {
+    width: 3px;
+    height: 82.5%;
+    left: -30px;
+    top: 9%;
+  }
+  .icons__icon {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .icons__icon:after {
+    top: 43.25px;
+    left: -38px;
+  }
+  .icons__pic {
+    background-position: 50%;
+  }
+  .icons__txt {
+    margin: 0 0 0 20px;
+    text-align: left;
+  }
+}
+@media (max-width: 599px) {
+  .wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
+  }
+  .title {
+    text-align: center;
+  }
+  .title__h1 {
+    font-size: 9vw;
+  }
+  .title__description {
+    font-size: 5vw;
+  }
+  .form:after {
+    display: none;
+  }
+  .form:before {
+    display: none;
+  }
+  .trigger__money{
+    font-size: 7vw;
+  }
+  .trigger__description{
+    font-size: 4.25vw;
+  }
+  .icons:after {
+    display: none;
+  }
+  .icons__icon:after {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .advantages__title{
+    font-size: 38px;
+  }
+}
